@@ -1,0 +1,27 @@
+* { margin: 0; padding: 0; }
+html, body { height: 100%; }
+
+body { font: 15px/19px Verdana, Arial, sans-serif; background: #E8EFF5 url(../images/body.png) repeat; }
+body#pagina-stanga { padding: 20px; background: #FFFFFF; }
+
+h1 { margin-bottom: 25px; padding: 10px 15px; background: #4B5368; color: #FFFFFF; font: 30px/34px "Trebuchet MS", sans-serif; border-radius: 5px; }
+h2 { margin-bottom: 15px; font-weight: normal; font-size: 20px; }
+p { margin-bottom: 15px; }
+ul { list-style-position: inside; list-style-type: square; }
+blockquote { margin-bottom: 25px; padding: 15px; border: 1px solid CCCCCC; background: #F3F3F3; }
+label { display: block; padding: 5px 0; }
+textarea.text,
+input.text { width: 500px; border: 1px solid #CCCCCC; margin-bottom: 10px; padding: 5px; }
+button.button { background: #4B5368; color: #FFFFFF; padding: 10px 20px; border: 1px solid #434B5D; }
+table img { max-width: 100%; }
+
+.left { float: left; }
+.right { float: right; }
+
+#meniu { padding: 20px; overflow: hidden; list-style: none; font: bold 11px/17px Tahoma, Arial, sans-serif; text-transform: uppercase; }
+    #meniu li { float: left; margin-right: 10px; }
+        #meniu li a { display: block; padding: 10px 30px; background-color: #4B5368; color: #FFFFFF; text-decoration: none; border: 1px solid #434B5D; border-radius: 3px; }
+        #meniu li.selectat a { background-color: #EB8532; border-color: #6B4F37; }
+        #meniu li a:hover { background-color: #403326; border-color: #392E22; }
+
+#continut { clear: both; padding: 20px; }
